@@ -2,7 +2,7 @@
 En este repositorio se presentan los archivos asociados al proyecto de modelo determinista tipo SEIR con estados hospitalarios, aislamiento de infecciosos que requeriran hospitalización y aislamiento focalizado de infecciosos leves basado en testeo selectivo. 
 Este modelo presenta una extensión del modelo https://github.com/judmejiabe/SEIIHR/
 # Índice de documentos
-* `ModeloTesteo.pdf`: Documento técnico con descripción del modelo de compartimentos, el sistema de ecuaciones diferenciales asociados al mismo y resultados preliminares para ciudad de Bogotá.
+* `DocumentoTecnico.pdf`: Contiene la descripción del modelo de compartimentos, el sistema de ecuaciones diferenciales asociados al mismo y resultados preliminares para ciudad de Bogotá (En desarrollo).
 * `SEIRHT_PCRIM_RTIC_ICA.py`: Script de python con solución numérica del modelo determinista.
 # Estructura del Código Principal `SEIRHT_PCRIM_RTIC_ICA.py`
 La estructura del código principal se desarrolla en torno a la clase `SEIRHT()`, la cual está compuesta de las siguientes funciones:
