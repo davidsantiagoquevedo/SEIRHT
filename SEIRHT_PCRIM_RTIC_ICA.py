@@ -60,7 +60,7 @@ class SEIRHT():
 		self.delta_UR=delta_UR
 		self.delta_UD=1-delta_HR-delta_HD-delta_UR
 		
-	def var_testeo(self, alpha, q, positividad, N_PCR, xi_PCR, xi_RT, T_RT, T_RT_PCR):
+	def var_testeo(self, alpha, q, positividad, N_PCR, xi_PCR, xi_RT):
 		self.alpha=alpha
 		self.q=q
 		self.positividad=positividad
