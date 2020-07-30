@@ -1,10 +1,11 @@
 # SEIRHT
-En este repositorio se presentan los archivos asociados al proyecto de modelo determinista tipo SEIR con estados hospitalarios y aislamiento de infecciosos  basado en el proyecto: https://github.com/judmejiabe/SEIIHR/.
+En este repositorio se presentan los archivos asociados al proyecto de modelo determinista tipo SEIR con estados hospitalarios, aislamiento de infecciosos que requeriran hospitalización y aislamiento focalizado de infecciosos leves basado en testeo selectivo. 
+Este modelo presenta una extensión del modelo https://github.com/judmejiabe/SEIIHR/
 # Índice de documentos
-* `ModeloTesteo.pdf`: Documento técnico con descripción del modelo de compartimentos, el sistema de ecuaciones diferenciales asociados al mismo y resultados preliminares para ciudad de Bogotá comparados con el escenario con A=60% y R0=3.0 del modelo https://github.com/judmejiabe/SEIIHR/.
-* `SEIRH_Class_ICA.py`: Script de python con solución numérica del modelo determinista.
-# Estructura del Código Principal `SEIRH_Class_ICA.py`
-La estructura del código principal se desarrolla en torno a la clase `SEIRH()`, la cual está compuesta de las siguientes funciones:
+* `ModeloTesteo.pdf`: Documento técnico con descripción del modelo de compartimentos, el sistema de ecuaciones diferenciales asociados al mismo y resultados preliminares para ciudad de Bogotá.
+* `SEIRHT_PCRIM_RTIC_ICA.py`: Script de python con solución numérica del modelo determinista.
+# Estructura del Código Principal `SEIRHT_PCRIM_RTIC_ICA.py`
+La estructura del código principal se desarrolla en torno a la clase `SEIRHT()`, la cual está compuesta de las siguientes funciones:
 * `var_trans(self,beta_0,beta_1,beta_H,r,A,Movilidad)`: Permite definir las variables de transmisión fijas del modelo.
 * `beta(self,t)`: Calcula el valor de Beta dependiendo de las condiciones de  movilidad.
 * `var_t_estadia(self, omega, gamma_M, sigma_C, sigma_CA, gamma_HR, nu, gamma_R, sigma_HD, sigma_UD)`: Fija las variables de transición entre compartimentos, inversas al tiempo de estadía en estos.
