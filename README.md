@@ -35,7 +35,7 @@ Se encuentran guardadas en el directorio BBDD, se listan a continuación:
 * I<sub>MT</sub>: Infecciosos moderados que son rastreados, testeados y aislados
 * I<sub>NMT</sub>: Infecciosos moderados que no son rastreados y por tanto no son testeados ni aislados
 * I<sub>C</sub>: Infecciosos que requerirán algún tipo de hospitalización pero aún no se han aislado en su casa
-* I<sub>CA</sub>: Infecciosos que requerirán y se encuentran aislados en su casa
+* I<sub>CA</sub>: Infecciosos que requerirán hospitalización y se encuentran aislados en su casa
 * I<sub>HR</sub>: Infecciosos hospitalizados que se recuperan
 * I<sub>UR</sub>: Infecciosos en UCI que se recuperan
 * I<sub>HD</sub>: Infecciosos hospitalizados que fallecen
@@ -53,4 +53,4 @@ Se encuentran guardadas en el directorio BBDD, se listan a continuación:
 ![Tasas](/IMG/Tasas.png?raw=true)
 
 # Sistema de ecuaciones diferenciales ordinarias
-El sistema de ecuaciones diferenciales que describe el modelo, así como la metodología de conteos se encuentran en el archivo `ModeloTesteo.pdf`
+El sistema de ecuaciones diferenciales que describe el modelo, así como la metodología de conteos se encuentran en el archivo `DocumentoTecnico.pdf`
